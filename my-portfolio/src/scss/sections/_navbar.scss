@@ -1,0 +1,13 @@
+nav {
+    min-height:60px;
+    .wrapper{
+        .brand{
+            a{
+                height:3rem;
+                width:3rem;
+                fill:none;
+                color:var(--theme-color)
+            }
+        }
+    }
+}
