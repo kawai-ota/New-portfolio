@@ -9,10 +9,10 @@
     gap: 0.5rem;
     &-item {
       font-size: var(--tlarge2);
+      transition: 0.3s ease-in-out;
       display: flex;
       justify-content: center;
       align-items: center;
-      transition: 0.3s ease-in-out;
       &-link {
         padding: 10px;
         color: var(--lightest-slate);
@@ -23,9 +23,7 @@
         }
         &:focus {
           outline-color: var(--theme-color);
-          transform: translateY(
-            -4px
-          ); //translateYとすれば上方向に上がる。X軸方向よりもいいかと思ったので採用
+          transform: translateY(-4px);
           color: var(--theme-color);
         }
       }
@@ -41,8 +39,14 @@
       display: block;
       width: 2px;
       height: 90px;
-      background: var(--light-slate);
-      margin: 0 auto;
+      margin: 0px auto;
+      background-color: var(--light-slate);
     }
+  }
+  @media screen and (max-width: 1080px) {
+    left: 2rem;
+  }
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 }

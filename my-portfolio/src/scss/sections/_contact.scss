@@ -20,23 +20,22 @@
   }
   .contact-sub-title {
     font-size: var(--tgiant);
-    color: var(--light-slate);
     font-family: var(--raleway);
+    color: var(--light-slate);
   }
   .contact-text {
     color: var(--slate);
     font-size: var(--tlarge);
     letter-spacing: 0.07rem;
     line-height: 1.6rem;
-    font-weight: 600;
+    font-weight: 500;
     font-family: var(--raleway);
     text-align: center;
   }
   .contact-cta {
     margin-top: 1rem;
     .btn {
-      padding: 1rem, 2rem;
-      font-family: var(--raleway);
+      padding: 1rem 2rem;
     }
   }
 }

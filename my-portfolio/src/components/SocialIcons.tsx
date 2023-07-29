@@ -2,6 +2,7 @@ import React from "react";
 import { FiGithub, FiInstagram } from "react-icons/fi";
 import { BiBookOpen } from "react-icons/bi";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 function SocialIcons() {
   const SocialIcons = [
@@ -23,21 +24,30 @@ function SocialIcons() {
   ];
 
   return (
-    <div className="social-icons">
+    <motion.div
+      className="social-icons"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{
+        duration: 0.3,
+        ease: "easeInOut",
+        delay: 1.95,
+      }}
+    >
       <ul className="social-icons-list">
         {SocialIcons.map(({ name, icon, link }) => (
           <li key={name} title={name} className="social-icons-list-item">
             <Link
               href={link}
               className="social-icons-list-item-link"
-              target="_blank" //異なるブラウザで遷移させたいので付加する
+              target="_blank"
             >
               {icon}
             </Link>
           </li>
         ))}
       </ul>
-    </div>
+    </motion.div>
   );
 }
 

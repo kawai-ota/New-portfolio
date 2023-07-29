@@ -32,8 +32,12 @@
     margin-top: 2rem;
     .btn {
       padding: 1rem 2rem;
-      font-size: var(-tsm1);
-      font-family: var(--raleway);
+      font-size: var(--tsm1);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    &-text {
+      width: 90%;
     }
   }
 }
