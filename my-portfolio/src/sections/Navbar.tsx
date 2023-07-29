@@ -1,4 +1,3 @@
-import Button from "@/components/Button";
 import Logo from "@/components/Logo";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -122,9 +121,7 @@ function Navbar() {
               ease: "easeInOut",
               delay: 0.6,
             }}
-          >
-            <Button text="Resume" link="http://localhost:3000/resume.pdf" />
-          </motion.div>
+          ></motion.div>
         </div>
       </div>
     </nav>
