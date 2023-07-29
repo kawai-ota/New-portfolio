@@ -1,9 +1,17 @@
 body {
   background: var(--background-color);
+  counter-reset: title;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: var(--theme-color);
 }
