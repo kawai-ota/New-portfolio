@@ -53,10 +53,10 @@ function Hero() {
         }}
       >
         I am a student engineer, and I absolutely love React and Next.js. I have
-        a dream for the future. It is to "deliver my creations to people all
-        around the world, to create something that can be useful or bring a
+        a dream for the future. It is to &quot;deliver my creations to people
+        all around the world, to create something that can be useful or bring a
         smile of happiness to someone, even if it is just one person, and make
-        this world a better place through my work."
+        this world a better place through my work.&quot;
       </motion.p>
       <motion.div
         className="hero-button"
