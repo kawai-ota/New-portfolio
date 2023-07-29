@@ -5,6 +5,7 @@ import Email from "@/components/Email";
 import Hero from "@/sections/Hero";
 import About from "@/sections/About";
 import Experience from "@/sections/Experience";
+import Projects from "@/sections/Projects";
 
 function Index() {
   return (
@@ -16,6 +17,7 @@ function Index() {
         <Hero />
         <About />
         <Experience />
+        <Projects />
       </main>
     </div>
   );
