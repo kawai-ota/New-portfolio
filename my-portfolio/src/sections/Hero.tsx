@@ -28,7 +28,7 @@ function Hero() {
           delay: 0.75,
         }}
       >
-        I&apos; Ota Kawai
+        I&apos;m Ota Kawai
       </motion.h2>
       <motion.h3
         className="hero-title-large hero-title-sub"
