@@ -43,6 +43,9 @@
         font-weight: 500;
         font-family: var(--raleway);
       }
+      .link {
+        color: var(--theme-color);
+      }
       &-list {
         display: grid;
         grid-template-columns: 33% 33% 33%;
@@ -88,7 +91,7 @@
         position: absolute;
         height: 350px;
         width: 350px;
-        background-color: #9d00ff4d;
+        background-color: #fbff004d;
         border-radius: 0.2rem;
       }
       .overlay-border {
