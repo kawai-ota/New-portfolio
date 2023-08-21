@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 function Projects() {
   const projectsData = [
@@ -59,7 +60,9 @@ function Projects() {
                 }}
               >
                 <div className="project-image">
-                  <div className="project-image-overlay"></div>
+                  <Link href={projectLink} legacyBehavior>
+                    <a className="project-image-overlay" />
+                  </Link>
                   <div className="project-image-container">
                     <Image src={image} fill alt={projectName} quality={100} />
                   </div>
