@@ -40,7 +40,7 @@ function About() {
                 また、個人開発では塾向けのB to
                 Bサービス、旅行をより楽しんでもらえる様なB to
                 Cサービスを開発しています。
-                使用技術はNext.js,React,Express,TypeScript,TailWind,MongoDB,NextAuthなどです。
+                使用技術はNext.js,React,TypeScript,TailWind,MongoDB,NextAuthなどです。
               </p>
               <p className="about-grid-info-text">
                 私たちの時代はどんどんと年金制度も崩壊してきて、一生働き続けるということが当たり前の時代になってくると思っています。
