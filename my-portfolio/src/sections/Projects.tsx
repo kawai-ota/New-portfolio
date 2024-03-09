@@ -6,12 +6,18 @@ import Link from "next/link";
 function Projects() {
   const projectsData = [
     {
-      image: "/project1.png",
-      projectName: "For Cram Teacher",
-      projectLink: "https://for-cram-teacher2-1fg5.vercel.app/",
+      image: "/pam.png",
+      projectName: "Personal Apparel Market",
+      projectLink: "https://clothing-ec.vercel.app/",
       projectDescription:
-        "まだ未完成ですが、このアプリは塾の講師や教室長など、塾で勤務されている方々に向けて作成しています。私が勤務していた塾ではデジタル化が進んでおらず、紙で講師のスケジュールやタスクを管理したり、有給申請を紙で行い、教室長のチェックをもらうなど無駄な業務が多かった職場でした。そこで無駄な業務を無くして、講師の方々や教室長の負担を減らしたいと考えてこのサービスを作成しようと考えました。",
-      projectTech: ["React", "Next.js", "Typescript", "MongoDB", "NextAuth"],
+        "私は友人が経営するアパレルブランドの携わっています。しかし、経営が全くうまくいっていませんでした。そこで、お客様に商品を届ける機会が不足していたり、商品の宣伝がうまくいっていないことが課題であると感じたので、効果的な商品の宣伝とお客様との接点を提供するプラットフォームを作成しました。",
+      projectTech: [
+        "Next.js",
+        "Typescript",
+        "PlanetScale",
+        "Stripe",
+        "TailWindCSS",
+      ],
     },
     {
       image: "/project2.png",
@@ -19,7 +25,13 @@ function Projects() {
       projectLink: "https://netlify.com",
       projectDescription:
         "このアプリは旅行者に向けて作成しています。旅行は「どこに行こうか、何を食べようか、どんなお土産があるのか」などを調べることも旅行の醍醐味であると思っています。そのため、旅行を調べる段階から更に楽しんでもらいたいと考えてこのアプリを作成しました。近くのホテル、グルメ、お土産などを調べたり、持ち物リスト、スケジュール管理表などを実装します。",
-      projectTech: ["React", "Next.js", "Typescript", "MongoDB", "NextAuth"],
+      projectTech: [
+        "React",
+        "Ruby on Rails",
+        "Typescript",
+        "MySQL",
+        "NextAuth",
+      ],
     },
   ];
   return (
